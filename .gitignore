@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+
+# Vector Store Database (can be huge!)
+vector_store/
+
+# Secret API Keys
+.env
+
+# PDF Source Documents (these are often too large for GitHub)
+# Users of your repo will provide their own PDFs in the data folder.
+data/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/git init
